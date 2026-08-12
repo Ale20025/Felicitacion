@@ -1,0 +1,98 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Fondo_Agradecimiento">
+        <div id="Agradecimiento"></div>
+    </div>
+
+    <div id="Regalos">
+    
+        <div class="columna">
+            <button class="Regalo" data-Regalo="cuchara"></button>
+            <button class="Regalo" data-Regalo="galleta"></button>
+            <button class="Regalo" data-Regalo="peluche"></button>
+            <button class="Regalo" data-Regalo="abrazo"></button>
+            <button class="Regalo" data-Regalo="tomatazo"></button>
+            <button class="Regalo" data-Regalo="helado"></button>
+            <button class="Regalo" data-Regalo="alepunto"></button>
+        </div>
+
+        <div class="columna">
+            <button class="Regalo" data-Regalo="cigarro"></button>
+            <button class="Regalo" data-Regalo="dona"></button>
+            <button class="Regalo" data-Regalo="pipis"></button>
+            <button class="Regalo" data-Regalo="telefono"></button>
+            <button class="Regalo" data-Regalo="flor"></button>
+            <button class="Regalo" data-Regalo="lata"></button>
+            <button class="Regalo" data-Regalo="huevo"></button>
+        </div>
+
+        <div class="columna">
+            <button class="Regalo" data-Regalo="audifono"></button>
+            <button class="Regalo" data-Regalo="playera"></button>
+            <button class="Regalo" data-Regalo="cafe"></button>
+            <button class="Regalo" data-Regalo="pastel"></button>
+            <button class="Regalo" data-Regalo="auto"></button>
+            <button class="Regalo" data-Regalo="casa"></button>
+            <button class="Regalo" data-Regalo="nada"></button>
+        </div>
+    
+
+        
+        
+        
+    </div> 
+
+    <div class="Titulo"></div>
+
+    <div class="Dibujo"></div>
+
+    <form id="Formulario" action="https://formspree.io/f/xaqzzaga" method="POST">
+        <div class="Nombre">
+            <img class="Texto_1" src="imagenes/nombre.jpeg" alt="nombre">
+            <input id="Dato_1" name="Nombre" type="text">
+        </div>
+        <div class="Felicitacion">
+            <textarea id="Dato_2" name="Felicitacion" type="text" placeholder="Escribe tu felicitacion aqui..."></textarea>
+        </div>
+        <div class="Anonimo">
+            <input id="Dato_3" type="checkbox"><img class="Anonimo_img" src="imagenes/anonimo.jpeg" alt="nombre">
+        </div>
+
+        <input type="hidden" id="RegaloOculto" name="regalo">
+
+    </form>
+
+    <div class="Nota"></div>
+
+    <div class="Titulo_2"></div>
+
+    <div class="Enviar">
+        <button id="Seleccionar"></button>
+        <button id="Envio" type="submit"></button>
+    </div>
+    
+    <div id="Mensajes">
+        <h3 id="Mensaje_seleccion"></h3>
+        <h2 id="Descripcion"></h2>
+    </div>
+
+    <button id="Sonido"></button>
+
+    <audio id="Musica" loop>
+        <source src="audio/waterfall_audio.mp4" type="audio/mp4">
+    </audio>
+
+    <audio id="Sonido1">
+        <source src="audio/ding.aac" type="audio/aac">
+    </audio>
+
+    <audio id="Sonido2">
+        <source src="audio/turururu.mp4" type="audio/mp4">
+    </audio>
+
+        <script src="script.js"></script>
+
+</body>
