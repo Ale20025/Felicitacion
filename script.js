@@ -66,7 +66,7 @@ function actualizarMensaje(){
     }
 
     else if(regaloElegido === "cigarro"){
-        Eleccion.textContent="Seleccionaste: Cigarro";
+        Eleccion.textContent="Elegiste: Cigarro";
         Descripcion.textContent="No fumo... pero gracias";
     }
 
